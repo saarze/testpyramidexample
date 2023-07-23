@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class DispensableDrug {
+public class DispensableDrug  {
    private int drugId;
    private String name;
    private Set<EDrugClassification> classifications;
