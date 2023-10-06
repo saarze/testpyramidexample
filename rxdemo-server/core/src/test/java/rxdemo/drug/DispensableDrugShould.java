@@ -10,6 +10,7 @@ public class DispensableDrugShould {
 
    @Test
    public void beConstructableWithListOfClassifications() {
+      //comment
       DispensableDrug drug = new DispensableDrug(1, "testdrug",
          EDrugClassification.ANALGESIC, EDrugClassification.ANTIANXIETY);
       Assert.assertEquals(1, drug.getDrugId());
